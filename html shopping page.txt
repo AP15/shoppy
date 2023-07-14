@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Page</title>
+  <style>
+    /* CSS styles for the shopping page */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.product h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.product p {
+  color: #666;
+}
+
+.product button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #45a049;
+}
+    /* add your own stuff here*/
+  </style>
+  <script>
+    // JavaScript code for the payment system
+    function processPayment() {
+        
+        
+      // put payment stuff here
+      // payment gateway here
+      
+      // Display a success message or redirect to a thank you page any dont mind
+    
+      alert("Payment successful!");
+      window.location.href = "thank you.html";
+    }
+  </script>
+</head>
+<body>
+  <h1>Shopping Page</h1>
+
+  <div id="product-list">
+    <!-- show product here -->
+    <div class="product">
+      <h2>Product 1</h2>
+      <p>Description of Product 1</p>
+      <button onclick="processPayment()">Buy Now</button>
+    </div>
+
+    <div class="product">
+      <h2>Product 2</h2>
+      <p>Description of Product 2</p>
+      <button onclick="processPayment()">Buy Now</button>
+    </div>
+
+    <!-- add more listing if you want. -->
+  </div>
+
+  
+
+</body>
+</html>
