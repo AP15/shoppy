@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    p {
+      line-height: 1.5;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+  </header>
+  
+  <main>
+    <h2>Our Company</h2>
+    <p>.</p>
+    //add what you want above and at the <p></p>
+    <h2>Our Team</h2>
+    <p>.</p>
+    
+    <h2>What we do.</h2>
+    <p>.</p>
+  </main>
+  
+  <footer>
+    &copy; 2023 My Company. All rights reserved.
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Media Tab</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    nav {
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #333;
+      padding: 8px 16px;
+    }
+    
+    nav a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Social Media</h1>
+  </header>
+  
+  <nav>
+    <a href="https://tiktok.com" target="_blank">tiktok</a>
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    
+  </nav>
+  
+  <main>
+    <!-- main stuff here -->
+  </main>
+</body>
+</html>

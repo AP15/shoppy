@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Page</title>
+  <style>
+    /* CSS styles for the shopping page */
+    .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar li {
+    margin: 10px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .navbar a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.product h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.product p {
+  color: #666;
+}
+
+.product button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #45a049;
+}
+    /* add your own stuff here*/
+  </style>
+  <script>
+    // JavaScript code for the payment system
+    function processPayment() {
+        
+        
+      // put payment stuff here
+      // payment gateway here
+      
+      // Display a success message or redirect to a thank you page any dont mind
+    
+      alert("Payment successful!");
+      window.location.href = "thank you.html";
+      
+    }
+    
+    
+  </script>
+</head>
+<body>
+  <h1>Shopping Page</h1>
+
+  <div id="product-list">
+    <!-- show product here -->
+    <div class="product">
+      <h2>t-shirt 1</h2>
+      <p>Description of t-shirt 1</p>
+      <button onclick="processPayment()">Buy Now</button>
+    </div>
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+
+    <div class="product">
+      <h2>t-shirt 2</h2>
+      <p>Description of t-shirt 2</p>
+      <button onclick="processPayment()">Buy Now</button>
+    </div>
+    img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    <!-- add more listing if you want. -->
+  </div>
+
+  
+
+</body>
+</html>
+<script type="text/javascript">
+  var Tawk_API = Tawk_API || {};
+  var Tawk_LoadStart = new Date();
+  (function(){
+    var s1 = document.createElement("script");
+    var s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/YOUR_TAWK_TO_CODE';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1,s0);
+  })();
+</script>

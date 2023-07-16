@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Help Center</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    .question {
+      margin-bottom: 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    
+    .answer {
+      margin-bottom: 20px;
+      display: none;
+    }
+  </style>
+  <script>
+    function toggleAnswer(index) {
+      var answer = document.getElementById('answer-' + index);
+      if (answer.style.display === 'none') {
+        answer.style.display = 'block';
+      } else {
+        answer.style.display = 'none';
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Help Center</h1>
+  </header>
+  
+  <main>
+    <h2>Frequently Asked Questions</h2>
+    
+    <div class="question" onclick="toggleAnswer(1)">
+      What are the accepted payment methods?
+    </div>
+    <div class="answer" id="answer-1">
+      We accept credit cards such as : Visa, Mastercard, American Express and PayPal.
+    </div>
+    
+    <div class="question" onclick="toggleAnswer(2)">
+      How long does shipping usually take?
+    </div>
+    <div class="answer" id="answer-2">
+      Shipping times may vary depending on your location. Generally, orders are delivered within 5-7 working days.
+    </div>
+    
+    <div class="question" onclick="toggleAnswer(3)">
+      What is your return policy?
+    </div>
+    <div class="answer" id="answer-3">
+      We offer a 30-day return policy. If you are not satisfied with your purchase, you can return the item for a full refund.(shippiing is not paid for.)
+      <h2>Support Email</h2>
+      <p>Email: support@example.com</p>
+
+      <h2>Support Phone</h2>
+      <p>Phone: +1 123-456-7890</p>
+      
+    </div>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Media Tab</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    nav {
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #333;
+      padding: 8px 16px;
+    }
+    
+    nav a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Social Media</h1>
+  </header>
+  
+  <nav>
+    <a href="https://tiktok.com" target="_blank">tiktok</a>
+    <a href="https://twitter.com" target="_blank">Twitter</a>
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    
+  </nav>
+  
+  <main>
+    <!-- main stuff here -->
+  </main>
+</body>
+</html>
